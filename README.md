@@ -1,4 +1,8 @@
-# next_otj
+# nuxt_otj
+
+## Intro
+
+A mockup for a leadership development tool using Vue, Nuxt.js, and BootstrapVue.
 
 ## Build Setup
 
