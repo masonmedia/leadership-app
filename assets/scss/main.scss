@@ -1,0 +1,23 @@
+@import 'animations.scss';
+@import 'colors.scss';
+@import 'text.scss';
+@import 'images.scss';
+@import 'buttons.scss';
+@import 'utilities.scss';
+
+body {
+    background: rgba(0,0,0,0.04);
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.container, 
+.container-fluid {
+    overflow-x: hidden;
+}
+
+.ds {
+    filter: drop-shadow(5px 5px 15px grey);
+}

@@ -1,0 +1,31 @@
+$bgImg1: "https://source.unsplash.com/random";
+$bgImg2: "https://source.unsplash.com/random";
+$bgImg3: "https://source.unsplash.com/random";
+$bgImg4: "https://source.unsplash.com/random";
+
+.bg-dots {
+    // need to remove intro slash before ~ for css
+    background: url('~assets/img/bg_dots.webp') center center;
+    background-size: cover;
+}
+
+.bg-img1 {
+    background: url('https://picsum.photos/1200/600?random=1') center center;
+    background-size: cover;
+}
+.bg-img2 {
+    background: url('https://picsum.photos/1200/600?random=2') center center;
+    background-size: cover;
+}
+.bg-img3 {
+    background: url('https://picsum.photos/1200/600?random=3') center center;
+    background-size: cover;
+}
+.bg-img4 {
+    background: url('https://picsum.photos/1200/600?random=4') center center;
+    background-size: cover;
+}
+.bg-img5 {
+    background: url('https://picsum.photos/1200/600?random=5') center center;
+    background-size: cover;
+}

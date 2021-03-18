@@ -1,0 +1,50 @@
+// backgrounds
+
+.bg-black {
+    background: #000;
+}
+
+.bg-salmon {
+    background: lightsalmon;
+}
+
+.bg-lightblue {
+    background: lightblue;
+}
+
+.bg-lightgoldenrod {
+    background: lightgoldenrodyellow;
+}
+
+.bg-lightcoral {
+    background: lightcoral;
+}
+.text-lightcoral {
+    color: lightcoral !important;
+}
+
+.bg-lightskyblue {
+    background: lightskyblue;
+}
+
+.bg-lightcyan {
+    background: lightcyan;
+}
+
+// semi-opaque white
+
+.bg-glass {
+    background: rgba(255,255,255,0.4)
+}
+
+// gradients
+
+.bg-g-purple {
+    background-color: #f9c5d1;
+    background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+}
+.bg-g-blue {
+    background: #2980B9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
