@@ -21,11 +21,14 @@
                                 </svg>
                             </template>
                         <b-dropdown-item>
-                            <div v-b-modal.modal-1> Quick look
+                            <div v-b-modal.modal-1>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" fill="currentColor" class="bi bi-arrows-fullscreen mr-1 mb-1" viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707zm-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707z"/>
+                                </svg> Quick look
                                 <b-modal 
                                 ref="modal-1"
                                 id="modal-1" 
-                                size="xl" 
+                                size="xl"
                                 centered 
                                 title="" 
                                 header-class="font-weight-bold pl-5 border-0 rounded-top bg-lightblue"
@@ -116,7 +119,12 @@
                                 </b-modal>
                             </div>
                         </b-dropdown-item>
-                        <NuxtLink class="dropdown-item" to="/one">Deep dive</NuxtLink>
+                        <NuxtLink class="dropdown-item" to="/one">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-box-arrow-up-right mr-1 mb-1" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                                <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
+                            </svg> Deep dive
+                        </NuxtLink>
                     </b-dropdown>
                     <b-img class="fadeIn ds" style="width: 200px; height: 200px" src="~/assets/img/drawkit_economy_finance/REBUILD_THE_ECONOMY.svg"></b-img>
                     <h3>Leadership 1</h3>

@@ -6,7 +6,7 @@
                     <h3 class="display-3 text-lightcoral font-weight-bold">#{{ qlTitle }}</h3>
                     <p class="h4 text-muted">{{ qlText }}</p>  
                     <!-- <b-button variant="outline-dark" class="" v-on:click="isHidden = false">Read more</b-button> -->
-                    <b-button variant="coral" class="mt-2" @click="toggleDetails">Read more</b-button>
+                    <b-button variant="coral" class="mt-2 mb-4" @click="toggleDetails">Read more</b-button>
                 </b-col>
                 <!-- show more -->
                 <transition name="index">
@@ -20,10 +20,10 @@
                         <hr class="rounded bg-lightcoral border-0 mt-2 mb-3" style="width: 50px; height: 4px;" />
                         <p class="mb-0">{{ revealText }}</p>
                     </b-col>
-                    <transition name="index" v-else>
+                    <!-- <transition name="index" v-else>
                     <b-col xl="7" lg="12" :class="qlStyle" class="w-100 h-100 d-flex flex-column justify-content-end align-items-center p-0" style="position: absolute; right: 0;">
                     </b-col> 
-                    </transition>
+                    </transition> -->
                 </transition>
 
             </b-row>
